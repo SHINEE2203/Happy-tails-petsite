@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+#details {
+  height: 125vh;
+}
+
+.gallery {
+  padding: 20px;
+  height: 100vh;
+}
+
+.centered-content {
+  text-align: center;
+  color: white;
+}
+
+.head h1 {
+  margin: 15px;
+  font-size: 40px !important;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8),
+    0 0 10px rgba(255, 255, 255, 0.6),
+    0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.para p {
+  color: white;
+  font-size: 180% !important;
+  text-align: center;
+  font-family: cursive;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.para p:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.galleries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  position: relative;
+  margin: 10px;
+  width: 8% !important;
+  height: 8% !important;
+  gap: 2% !important;
+  cursor: pointer;
+  flex-basis: calc(33.33% - 20px);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow:
+    0 0 5px rgba(255, 255, 255, 0.8),
+    0 0 10px rgba(255, 255, 255, 0.6),
+    0 0 15px rgba(255, 255, 255, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-item .caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .caption {
+  opacity: 1;
+}
+
+.styled-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: transparent;
+  background: linear-gradient(90deg, #ffffff, #f0f0f0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  line-height: 1.6;
+  padding: 20px;
+  text-align: center;
+}
+
+.shining-text {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8),
+    0 0 10px rgba(255, 255, 255, 0.6),
+    0 0 15px rgba(255, 255, 255, 0.4);
+  background: linear-gradient(90deg, rgba(255,255,255,0.2), rgba(255,255,255,0.5), rgba(255,255,255,0.2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  .navbar-links {
+    padding: 1rem 0;
+  }
+  .navbar-links a {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+  .heads h1 {
+    font-size: 140% !important;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8),
+    0 0 10px rgba(255, 255, 255, 0.6),
+    0 0 15px rgba(255, 255, 255, 0.4);
+
+  }
+  .carousel-caption h5 {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .head h1{
+    font-size: 140% !important;
+  }
+  .carousel-caption p {
+    visibility: hidden;
+  }
+  .gallery {
+    height: 200vh;
+  }
+  #details {
+    height: 100vh !important;
+  }
+  .gallery-item {
+    width: 180px;
+    height: 180px;
+  }
+  .gallery-image {
+    width: 100px;
+    height: 100px;
+  }
+  .galleries {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery-item {
+    width: 90%;
+    max-width: 400px;
+    flex-basis: calc(50% - 20px);
+  }
+  .centered-content {
+    padding-top: 0;
+  }
+  .para p {
+    font-size: 80% !important;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 120%;
+  }
+  #details {
+    height: 100vh;
+  }
+  .welcome h1{
+     text-align: center;
+     font-size: 30px !important;
+     text-shadow: 
+     0 0 5px rgba(255, 255, 255, 0.8),
+     0 0 10px rgba(255, 255, 255, 0.6),
+     0 0 15px rgba(255, 255, 255, 0.4);
+  }
+}

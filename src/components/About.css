@@ -1,0 +1,90 @@
+.about-us {
+  background-color: black;
+  padding: 5%;
+  border: 1px solid white;
+  background: url('../assets/Image/about-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  display: flex;
+  padding-bottom: 1%;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 35px !important;
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8), /* Soft white glow */
+    0 0 10px rgba(255, 255, 255, 0.6), /* Medium white glow */
+    0 0 15px rgba(255, 255, 255, 0.4); /* Strong white glow */
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+
+h2 {
+  padding-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 30px;
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8), /* Soft white glow */
+    0 0 10px rgba(255, 255, 255, 0.6), /* Medium white glow */
+    0 0 15px rgba(255, 255, 255, 0.4); /* Strong white glow */
+}
+
+.what-we-offer ul {
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+
+.what-we-offer strong {
+  text-decoration: underline;
+  padding-bottom: 1%;
+}
+
+.connect-with-us p{
+  font-size: 15px;
+ text-align: justify !important;
+ display: inline;
+ 
+}
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 20px;
+    }
+  
+  p {
+    font-size: 15px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8),
+    0 0 10px rgba(255, 255, 255, 0.6),
+    0 0 15px rgba(255, 255, 255, 0.4);
+  }
+  
+  .what-we-offer ul {
+    font-size: 15px;
+  }
+  .connect-with-us p{
+    font-size: 15px !important;
+    text-align: justify !important;
+     display: inline;
+     color: white;
+}
+} 

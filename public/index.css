@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+.title{
+    font-family: cursive !important;
+}
+#root{
+    background-color: black !important;
+    height: 100vh;
+}
