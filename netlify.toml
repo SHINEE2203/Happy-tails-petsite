@@ -1,5 +1,5 @@
 [build]
-  publish = "MY-APP"  # or wherever your HTML files are located
+  publish = "src"  # or wherever your HTML files are located
   command = "npm run build"  # If you're using a build command
 
 # No need for redirects if not using a single-page app (SPA)
