@@ -25,14 +25,7 @@ const About = () => {
               <li><strong>Interactive Features:</strong> Use our tools to compare breeds, find the perfect match for your lifestyle, and much more.</li>
             </ul>
           </section>
-          <section className="connect-with-us">
-            <h2>Connect With Us</h2>
-            <p>
-              We welcome your feedback and are always available to assist you. If you have any questions or suggestions, please reach out through our <a href="/contact">Contact Us</a> page. Join us in celebrating the wonderful world of pets and discover the joy they bring to our lives!
-            </p>
-          </section>
-          
-          <section className="meet-the-creator">
+                  <section className="meet-the-creator">
             <h2>Meet the Creator</h2>
             <p>
               I’m Shinee Vasudevan, a dedicated student with a passion for animals. My goal with Happy Tails is to create a resource that not only informs but also inspires. Thank you for being a part of this journey into the incredible world of pets!

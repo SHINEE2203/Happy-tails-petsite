@@ -29,9 +29,7 @@ const Home = () => {
           <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
             <li><a href="#home">Home</a></li>
             <li><a href="#details">Pets</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+            <li><a href="#About">About</a></li>          </ul>
         </div>
         <div className="navbar-toggle" onClick={toggleNavbar}>
           ☰
